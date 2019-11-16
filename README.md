@@ -1,6 +1,6 @@
 # devup
-My learning pool
+My learning **POOL**
 
-Plus some new jams!
+Plus some *new* jams!
 
-More jams to the list!
+More _jams_ to the list!
