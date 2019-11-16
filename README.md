@@ -1,4 +1,4 @@
-# devup [Link To Beta Site](https://github.com/monXterious/devup)
+# devup [Link To Beta Site](https://github.com/monXterious/devup/docs/)
 My learning **POOL**
 
 Plus some *new* jams!
