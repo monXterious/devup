@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+address, article, aside, canvas, content, details, figcaption, figure, footer, header, hgroup, menu, section, summary {
+	display: block;
+}
+
+
+body{
+	font-family: Arial;
+	background-color: #101010;
+
+}
+
+content{
+	width: 750px;
+	height: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	/*background-color: #1a1a00;*/
+	background-image: linear-gradient(#333300, #333300, #666600);
+	position: relative;
+}
+
+header{
+	background-color: #666600;
+	width: 250px;
+	position: relative;
+	margin: auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	border-radius: 10px 10px 0px 0px;
+	margin-top: 10px;
+}
+
+nav li{
+	list-style-type: none;
+	display: inline;
+}
+
+nav{
+	padding-top: 20px;
+	width: 600px;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+
+nav li a{
+	font-family:'LindenHillRegular', Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	display:inline;
+	padding-top:10px;
+	padding-right:20px;
+	padding-bottom:10px;
+	padding-left:20px;
+	font-size:18px;
+	color: #999933;
+	border-radius: 10px;
+}
+
+nav li a:link{
+	font-size: 15px;
+}
+
+nav li a:hover{
+	background-color: #666600;
+}
+
+article {
+	background-color: #666600;
+	width:539px;
+	height: 535px;
+	margin: auto;
+	border-left-color: #999933;
+	border-left-width: 1px;
+	border-left-style: solid;
+	box-shadow: 0px 0px 10px #333300;
+	-webkit-box-shadow: 0px 0px 10px #333300; /* Safari */
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+article h2, h3, p {
+	margin-left:20px;
+	margin-right:20px;
+	padding: 10px
+	
+	}
+
+h1{
+	font-size: 30px;
+	font-family: Arial;
+	color: #333300;
+	text-align: center;
+	padding-top: 20px;
+	text-shadow: 2px 2px 3px #333300;
+
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #999933;
+	text-align: center;
+}
+
+p{
+	color: #A9A9A9;
+}
+
+article .left_float{
+	width:50%;
+	float:left;
+}
+
+article .right_float{
+	width:50%;
+	float:right;
+
+}
+
+/*article .left_float{
+	width:50%;
+	float:left;
+	}
+	
+article .right_float{
+	width:50%;
+	float:right;
+	}*/
+
+.clearing {
+	clear: both;
+}
