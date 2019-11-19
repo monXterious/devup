@@ -15,7 +15,7 @@ body{
 }
 
 content{
-	width: 750px;
+	width: 800px;
 	height: 1000px;
 	margin-right: auto;
 	margin-left: auto;
@@ -25,6 +25,9 @@ content{
 }
 
 header{
+	border-left-color: #999933;
+	border-left-width: 1px;
+	border-left-style: solid;
 	background-color: #666600;
 	width: 250px;
 	position: relative;
@@ -72,8 +75,8 @@ nav li a:hover{
 
 article {
 	background-color: #666600;
-	width:539px;
-	height: 535px;
+	width:650px;
+	height: 700px;
 	margin: auto;
 	border-left-color: #999933;
 	border-left-width: 1px;
@@ -124,6 +127,15 @@ article .right_float{
 
 }
 
+#dotline{
+	border-bottom: 1px black;
+	width: 500px;
+	margin: auto;
+}
+
+.decide{
+	font-family: serif;
+}
 /*article .left_float{
 	width:50%;
 	float:left;
