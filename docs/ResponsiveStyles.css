@@ -5,50 +5,64 @@
 	padding: 0px;
 }
 .container{
-	width: 950px;
-	height: 900px;
+	width: 300px;
 	background-color: pink;
 	border: 1px solid red;
 	margin-left: auto;
 	margin-right: auto;
+	overflow: auto;
+	clear: both;
 }
 .menu{
-	width: 32%;
 	float: left;
 	background-color: #ccc;
 	border: 1px solid red;
-	border-radius: 2px;
+	border-radius: 5px;
 	margin: 5px;
-	padding: 5px;
+	
 }
 .menu-item{
 	background-color: skyblue;
-	width: 80px;
-	text-align: right;
-	padding-right: 5px;
+	width: 70px;
+	text-align: center;
+	padding: 2px;
 	position: relative;
 
 }
-h1{
+body{
 	font-family: arial;
+}
+h1{
 	text-align: center;
 	margin: 15px;
 }
-@media(min-width: 992px) /*desktop*/
+h3{
+	float: right;
+	border-bottom: 1px solid red;
+	border-left: 1px solid red;
+	border-radius: 5px;
+}
+p{
+	clear: right;
+	margin-top: 30px;
+	padding: 5px;
+}
+@media(min-width: 1200px) /*desktop*/
 {
 	.container {
-		width: 900px;
+		width: 1000px;
+	}
+	.menu{
+		width: 32%;
 	}
 }
-@media(min-width: 768px) and (max-width: 991) /*tablet*/
+@media(min-width: 768px) and (max-width: 1199px)
 {
-	.container {
+	.container{
 		width: 750px;
 	}
-}
-@media(max-width: 767px) /*phone*/
-{
-	.container {
-		width: 360px;
+	.menu{
+		width: 48%;
 	}
+
 }
